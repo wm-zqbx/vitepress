@@ -10,7 +10,7 @@ hero:
   # 主标题文字
   text: "专注建筑全产业链数字化的开源社区"
   # 副标题/标语
-  tagline: My great project tagline
+  tagline: 这是副标题：加油
   # 行动按钮（可多个）
   actions:
     # 主要按钮（品牌色）

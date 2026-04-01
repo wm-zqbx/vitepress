@@ -1,27 +1,60 @@
-# build output
+# ===== 构建输出 =====
+
 dist/
 .output/
-.obsidian/
 
-# dependencies
+# ===== 依赖 =====
+
 node_modules/
 
-# logs
+# ===== 日志文件 =====
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# ===== 环境变量 =====
 
-# environment variables
 .env
 .env.production
 
-# macOS-specific files
-.DS_Store
+# ===== 包管理器锁文件 =====
 
 pnpm-lock.yaml
 
-.astro
+# ===== 编辑器/IDE =====
+
+.vscode/
+.omc/
+.claude/
+.obsidian/
+
+# ===== macOS 系统文件 =====
+
+.DS_Store
+
+# ===== VitePress 缓存 =====
+
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+
+# ===== 其他框架缓存 =====
+
+.astro/
+
+# ===== 文档/配置 =====
+
 AGENTS.md
-.
+CLAUDE.md
+
+# ===== 临时文件 =====
+
+temp/*
+*.bak
+
+# ===== 计划文档 =====
+
+docs/plans/*
+!docs/plans/

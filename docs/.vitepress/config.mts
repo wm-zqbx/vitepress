@@ -7,8 +7,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   // 站点标题（显示在浏览器标签页）
   title: "OpenArchiCN贡献指南",
-  base: '/vitepress/', // 设置站点的基础路径，适用于部署在子路径下的情况
-  
+
   // 站点描述（用于 SEO 和 meta 标签）
   description: "OpenArchiCN 一个专注建筑全产业链数字化的开源社区",
   

@@ -1,6 +1,7 @@
 // 导入 VitePress 的配置定义函数
 import { defineConfig } from 'vitepress'
 
+base: '/vitepress/'
 // VitePress 站点配置
 // 参考文档: https://vitepress.dev/reference/site-config
 export default defineConfig({
